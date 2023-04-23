@@ -157,3 +157,4 @@ sum_aux([H|T], Accumulator, Sum) :-
     Accumulator2 is Accumulator + H,
     sum_aux(T, Accumulator2, Sum),
     !.
+    

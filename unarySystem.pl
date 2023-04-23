@@ -28,3 +28,4 @@ mul([x|T], Num2, ResAdd) :-
     mul(T, Num2, ResMul),
     add(ResMul, Num2, ResAdd),
     !.
+    

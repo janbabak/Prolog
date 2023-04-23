@@ -29,3 +29,4 @@ delete_first([H|T], H, T) :- !.
 delete_first([H|T], Element, [H|Res]) :-
     H \= Element,
     delete_first(T, Element, Res).
+    

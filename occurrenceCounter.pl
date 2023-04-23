@@ -25,3 +25,4 @@ count(E, [H|T], Cnt) :-
     E \= H,
     count(E, T, Cnt),
     !.
+    

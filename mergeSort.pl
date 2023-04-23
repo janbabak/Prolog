@@ -77,5 +77,3 @@ merge_sort(List, Sorted) :-
     merge_sort(List2, SubRes2),
     merge(SubRes1, SubRes2, Sorted),
     !.
-
-

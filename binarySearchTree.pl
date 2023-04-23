@@ -100,36 +100,3 @@ bstDelete(Element, bst(Val, L, R), bst(Val, L, NewR)) :-
    bstMostLeft(+Bts, -MostLeftElement) */
 bstMostLeft(bst(Val, nil, _), Val) :- !.
 bstMostLeft(bst(_, L, _), Res) :- bstMostLeft(L, Res), !.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

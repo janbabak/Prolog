@@ -23,3 +23,4 @@ my_fibonacci(N, Result) :- !,
     my_fibonacci(N2, Result2),
     my_fibonacci(N3, Result3),
     Result is Result2 + Result3.
+    
