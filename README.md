@@ -1,8 +1,8 @@
 # Logical programming in Prolog
 
-## 📝 Description
+## Description
 
-This repository contains programs developed during the Programming Paradigms course at the Faculty of Information Technology Czech Technical University.
+This repository includes programs created for the Programming Paradigms course at the [Czech Technical University's Faculty of Information Technology](https://fit.cvut.cz/cs). The programs are written in Prolog.
 
 ## 🤓 Logical Programming
 
@@ -12,14 +12,14 @@ Programmers define relationships between entities and constraints on possible so
 
 ## 🗃️ Content
 The repository contains the following files:
-- `binarySearchTree.pl` operations with binary search trees (insert, contains, delete, create tree from list)
-- `factorial.pl` mathematical factorial
-- `fibonacci.pl` computes the $n$-th Fibonacci number
-- `lists.pl` operations with lists (contains, get $n$-th element, length, push back, delete first, delete all, replace all, get last element, flatten, reverse, powerset)
-- `mergeSort.pl` standard sorting algorithm
-- `occurrenceCounter.pl` counts all occurrences in a list
-- `selectSort.pl` another sorting algorithm
-- `unarySystem.pl` arithmetic operations over the unary system, where numbers are represented like this: `0 = [], 1 = [x], 2 = [x, x], ...` 
+- **binarySearchTree** operations with binary search trees (insert, contains, delete, create tree from list)
+- **factorial** mathematical factorial
+- **fibonacci** computes the $n$-th Fibonacci number
+- **lists** operations with lists (contains, get $n$-th element, length, push back, delete first, delete all, replace all, get last element, flatten, reverse, powerset)
+- **mergeSort** standard sorting algorithm
+- **occurrenceCounter** counts all occurrences in a list
+- **selectSort** another sorting algorithm
+- **unarySystem** arithmetic operations over the unary system, where numbers are represented like this: `0 = [], 1 = [x], 2 = [x, x], ...` 
 
 ## 👨‍🎓 Takeaways
 
